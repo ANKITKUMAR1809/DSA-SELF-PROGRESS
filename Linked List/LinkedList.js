@@ -1,0 +1,5 @@
+console.log(0/10+1)
+console.log(1/10+2)
+console.log(2.1/10+2)
+console.log(2.21/10+1)
+console.log(parseInt(1.221*(10**3)))
