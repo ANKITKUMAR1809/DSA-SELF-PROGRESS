@@ -7,6 +7,7 @@ function isPallindrome (head){
         fast=fast.next.next;
     }
     
+    
     // now we find the midd as slow 
     // now reverse the linkedlist from mid to null;
     let curr=slow;
