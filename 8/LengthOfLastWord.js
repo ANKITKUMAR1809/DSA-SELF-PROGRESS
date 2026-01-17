@@ -1,12 +1,17 @@
 let s = "  Hello this is   World"
 
 const lolw= (s)=>{
-    let n=s.length-1;
-
-    while(s[n]===" "){
-            n--;
+ let n = s.length-1;
+ let count=0;
+ while(n>=0){
+    if(s[n]!== " "){
+        count++;
     }
-    console.log(n)
+    else if(count>0){
+        break;
+    }
+    n--;
+ }
+ return count;
 }
-console.log(s.length)
-lolw(s)
+console.log(lolw(s))
